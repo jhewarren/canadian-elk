@@ -42,8 +42,8 @@ The Elk team maintains a deployment at:
 In order to host Elk yourself you can use the provided Dockerfile to build a container with elk. Be aware, that Elk only loads properly of the connection is done via SSL/TLS. The Docker container itself does not provide any SSL/TLS handling. You'll have to add this bit yourself. 
 One could put Elk behind popular reverse proxies with SSL Handling like Traefik, NGINX etc. 
 
-1. checkout source ```git clone https://github.com/elk-zone/elk.git```
-1. got into new source dir: ```cd elk```
+1. checkout source ```git clone https://github.com/jhewarren/canadian-elk```
+1. got into new source dir: ```cd canadian-elk```
 1. build Docker image: ```docker build .```
 1. create local storage directory for settings: ```mkdir elk-storage```
 1. adjust permissions of storage dir: ```sudo chown 911:911 ./elk-storage```
